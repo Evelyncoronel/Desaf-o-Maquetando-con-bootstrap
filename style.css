@@ -3,6 +3,24 @@
     padding: 0%;
 }
 
+@media only screen and (max-width:400px) {
+    body {
+        background-color: #fff;
+    }
+}
+/*desktop*/
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: #fff
+    }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 968px){
+    body {
+        background-color: #fff;
+    }
+}
+
 .header {
     background-color: transparent
 }
@@ -26,6 +44,16 @@
     padding: 50px;
     padding-top: 50px;
 }
+.col {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    column-gap: 10%;
+    row-gap: 20px;
+}
+
+
 
 .instafeed-title {
     position: relative;
@@ -44,15 +72,15 @@
 
 
 
-
+/*facilitadores*/
 .main-footer {
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
-
 }
+/*Fin facilitadores*/
 
 /*ICONO DE WPP EN SCROLL A LA DERECHA*/
 .item-fixed {
@@ -77,10 +105,7 @@
     justify-content: center;
 }
 
-.redes a {
-    padding-top: 100px;
-    padding-bottom: 20%;
-}
+
 .footer.second.row {
     padding-left: 8%;
     width: 31%;
